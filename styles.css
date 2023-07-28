@@ -1,0 +1,79 @@
+/* Definindo a imagem de fundo do corpo (body) */
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+/* Alinhando centralmente os títulos (h1 e h2) e os parágrafos (p) */
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+/* Estilizando a área do menu */
+.menu {
+  width: 80%; /* Define a largura do menu como 80% da largura do contêiner pai */
+  background-color: burlywood; /* Define a cor de fundo do menu como "burlywood" */
+  margin-left: auto; /* Alinha o menu horizontalmente centralizado */
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+/* Estilizando os parágrafos dentro do elemento com a classe "item" */
+.item p {
+  display: inline-block; /* Define os parágrafos para serem exibidos em linha */
+  margin: 5px 0%; /* Remove qualquer espaçamento ao redor dos parágrafos */
+  font-size: 18px;
+}
+
+/* Estilizando a classe "flavor" */
+.flavor,
+.dessert {
+  text-align: left; /* Alinha o texto à esquerda */
+  width: 75%; /* Define a largura do elemento "flavor" como 75% do contêiner pai */
+}
+
+/* Estilizando a classe "price" */
+.price {
+  text-align: right; /* Alinha o texto à direita */
+  width: 25%; /* Define a largura do elemento "price" como 25% do contêiner pai */
+}
+
+/* Estilizando o elemento com a classe "item" */
+.item {
+  display: flex; /* Altera o comportamento para flexbox, permite ajustar o layout flexivelmente */
+  justify-content: space-between; /* Espaçamento automático entre os elementos internos do "item" */
+}
+
+/* Alinhar todos os elementos "p" dentro de "item" na mesma linha e remover espaçamento */
+.established {
+  font-style: italic;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
